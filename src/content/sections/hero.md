@@ -8,8 +8,8 @@ image: "@/assets/hero.png"
 
 primaryButton:
   enable: true
-  label: "🔥 每日一诗"
-  link: "/today"
+  label: "🔥 给孩子的诗"
+  link: "/collections/3"
 
 secondaryButton:
   enable: true
