@@ -1,9 +1,6 @@
 ---
 import Base from "@/layouts/Base.astro";
-import CallToAction from "@/partials/CallToAction.astro";
-import Features from "@/partials/Features.astro";
 import Hero from "@/partials/Hero.astro";
-import Testimonials from "@/partials/Testimonials.astro";
 
 export const prerender = true;
 
@@ -22,27 +19,6 @@ const description =
   <section id="index-section" class="section py-14">
     <div class="container">
       <Hero />
-    </div>
-  </section>
-
-  <!-- Features Section -->
-  <section id="features-section" class="section py-28">
-    <div class="container">
-      <Features />
-    </div>
-  </section>
-
-  <!-- Testimonials Section -->
-  <section id="testimonials-section" class="section py-28">
-    <div class="container">
-      <Testimonials />
-    </div>
-  </section>
-
-  <!-- CallToAction Section -->
-  <section id="cta-section" class="section py-14 mb-14">
-    <div class="container">
-      <CallToAction />
     </div>
   </section>
 </Base>
